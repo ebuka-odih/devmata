@@ -11,7 +11,7 @@
                     <!-- Section Container -->
                     <div class="global-container">
                         <h1 class="jos mb-6 font-spaceGrotesk leading-none -tracking-[3px] text-white">
-                            Next-gen AI solutions for cybersecurity
+                            DevMata
                         </h1>
                         <div class="mx-auto max-w-[1090px]">
                             <p class="leading-[1.33] lg:text-xl xl:text-2xl">
