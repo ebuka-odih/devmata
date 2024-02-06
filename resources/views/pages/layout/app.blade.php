@@ -53,135 +53,17 @@
                             <div class="mobile-menu-close">&times;</div>
                         </div>
                         <ul class="site-menu-main is-text-white">
-                            <li class="nav-item nav-item-has-children">
-                                <a href="#" class="nav-link-item drop-trigger">Demo
-                                    <img class="dropdown-icon" src="assets/img/icon-black-cheveron-right.svg"
-                                         alt="cheveron-right" width="16" height="16" /></a>
-                                <ul class="sub-menu" id="submenu-1">
-                                    <li class="sub-menu--item">
-                                        <a href="index.html">home 01</a>
-                                    </li>
-                                    <li class="sub-menu--item">
-                                        <a href="index-2.html">home 02</a>
-                                    </li>
-                                    <li class="sub-menu--item">
-                                        <a href="index-3.html">home 03</a>
-                                    </li>
-                                    <li class="sub-menu--item">
-                                        <a href="index-4.html"> home 04</a>
-                                    </li>
-                                </ul>
+                            <li class="nav-item">
+                                <a href="{{ route('index') }}" class="nav-link-item">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a href="about.html" class="nav-link-item">About</a>
-                            </li>
-                            <li class="nav-item nav-item-has-children">
-                                <a href="#" class="nav-link-item drop-trigger">Services
-                                    <img class="dropdown-icon" src="assets/img/icon-black-cheveron-right.svg"
-                                         alt="cheveron-right" width="16" height="16" /></a>
-                                <ul class="sub-menu" id="submenu-2">
-                                    <li class="sub-menu--item">
-                                        <a href="services.html">Services</a>
-                                    </li>
-                                    <li class="sub-menu--item">
-                                        <a href="service-details.html">Service Details</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item nav-item-has-children">
-                                <a href="#" class="nav-link-item drop-trigger">Pages
-                                    <img class="dropdown-icon" src="assets/img/icon-black-cheveron-right.svg"
-                                         alt="cheveron-right" width="16" height="16" /></a>
-                                <ul class="sub-menu" id="submenu-3">
-                                    <li class="sub-menu--item nav-item-has-children">
-                                        <a href="#" data-menu-get="h3" class="drop-trigger">blogs
-                                            <img class="dropdown-icon"
-                                                 src="assets/img/icon-black-cheveron-right.svg" alt="cheveron-right"
-                                                 width="16" height="16" /></a>
-                                        <ul class="sub-menu shape-none" id="submenu-4">
-                                            <li class="sub-menu--item">
-                                                <a href="blog.html">blogs</a>
-                                            </li>
-                                            <li class="sub-menu--item">
-                                                <a href="blog-details.html">blog details</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="sub-menu--item nav-item-has-children">
-                                        <a href="#" data-menu-get="h3" class="drop-trigger">Team
-                                            <img class="dropdown-icon"
-                                                 src="assets/img/icon-black-cheveron-right.svg" alt="cheveron-right"
-                                                 width="16" height="16" />
-                                        </a>
-                                        <ul class="sub-menu shape-none" id="submenu-5">
-                                            <li class="sub-menu--item">
-                                                <a href="teams.html">Teams</a>
-                                            </li>
-                                            <li class="sub-menu--item">
-                                                <a href="team-details.html">Teams Details</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="sub-menu--item nav-item-has-children">
-                                        <a href="#" data-menu-get="h3" class="drop-trigger">FAQ
-                                            <img class="dropdown-icon"
-                                                 src="assets/img/icon-black-cheveron-right.svg" alt="cheveron-right"
-                                                 width="16" height="16" />
-                                        </a>
-                                        <ul class="sub-menu shape-none" id="submenu-6">
-                                            <li class="sub-menu--item">
-                                                <a href="faq.html">FAQ-1</a>
-                                            </li>
-                                            <li class="sub-menu--item">
-                                                <a href="faq-2.html">FAQ-2</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="sub-menu--item nav-item-has-children">
-                                        <a href="#" data-menu-get="h3" class="drop-trigger">Portfolio
-                                            <img class="dropdown-icon"
-                                                 src="assets/img/icon-black-cheveron-right.svg" alt="cheveron-right"
-                                                 width="16" height="16" />
-                                        </a>
-                                        <ul class="sub-menu shape-none" id="submenu-7">
-                                            <li class="sub-menu--item">
-                                                <a href="portfolio.html">Portfolio</a>
-                                            </li>
-                                            <li class="sub-menu--item">
-                                                <a href="portfolio-details.html">Portfolio Details</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="sub-menu--item">
-                                        <a href="pricing.html" data-menu-get="h3" class="drop-trigger">Pricing
-                                        </a>
-                                    </li>
-
-                                    <li class="sub-menu--item nav-item-has-children">
-                                        <a href="#" data-menu-get="h3" class="drop-trigger">Utilities
-                                            <img class="dropdown-icon"
-                                                 src="assets/img/icon-black-cheveron-right.svg" alt="cheveron-right"
-                                                 width="16" height="16" />
-                                        </a>
-                                        <ul class="sub-menu shape-none" id="submenu-8">
-                                            <li class="sub-menu--item">
-                                                <a href="error-404.html">Error 404</a>
-                                            </li>
-                                            <li class="sub-menu--item">
-                                                <a href="login.html">Login</a>
-                                            </li>
-                                            <li class="sub-menu--item">
-                                                <a href="signup.html">Signup</a>
-                                            </li>
-                                            <li class="sub-menu--item">
-                                                <a href="reset-password.html">Reset Password</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
+                                <a href="{{ route('about') }}" class="nav-link-item">About</a>
                             </li>
                             <li class="nav-item">
-                                <a href="contact.html" class="nav-link-item">Contact</a>
+                                <a href="{{ route('about') }}" class="nav-link-item">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="{{ route('contact') }}" class="nav-link-item">Contact</a>
                             </li>
                         </ul>
                     </nav>
@@ -190,11 +72,12 @@
 
                 <!-- Header User Event -->
                 <div class="flex items-center gap-6">
-                    <a href="login.html"
-                       class="hidden border-b-2 border-transparent font-bold text-white transition-all duration-300 hover:border-colorGreen hover:text-colorGreen lg:inline-block">Login</a>
+{{--                    <a href="login.html"--}}
+{{--                       class="hidden border-b-2 border-transparent font-bold text-white transition-all duration-300 hover:border-colorGreen hover:text-colorGreen lg:inline-block">Login--}}
+{{--                    </a>--}}
                     <a href="signup.html"
-                       class="button hidden h-full rounded border-none bg-colorGreen py-3 text-base text-black after:border-none after:bg-white lg:inline-block">Sign
-                        up free</a>
+                       class="button hidden h-full rounded border-none bg-colorGreen py-3 text-base text-black after:border-none after:bg-white lg:inline-block">Send a Mail
+                    </a>
                     <!-- Responsive Offcanvas Menu Button -->
                     <div class="block lg:hidden">
                         <button class="mobile-menu-trigger is-white">
