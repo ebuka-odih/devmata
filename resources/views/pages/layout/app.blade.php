@@ -36,7 +36,7 @@
             <div class="flex items-center justify-between gap-x-8">
                 <!-- Header Logo -->
                 <a href="index.html" class="">
-                    <img src="assets/img/logo-light.png" alt="AIMass" width="96" height="24" />
+                    <img src="{{ asset('assets/img/logo.png') }}" alt="AIMass" width="150" height="50" />
                 </a>
                 <!-- Header Logo -->
 
@@ -75,9 +75,9 @@
 {{--                    <a href="login.html"--}}
 {{--                       class="hidden border-b-2 border-transparent font-bold text-white transition-all duration-300 hover:border-colorGreen hover:text-colorGreen lg:inline-block">Login--}}
 {{--                    </a>--}}
-                    <a href="signup.html"
-                       class="button hidden h-full rounded border-none bg-colorGreen py-3 text-base text-black after:border-none after:bg-white lg:inline-block">Send a Mail
-                    </a>
+{{--                    <a href="signup.html"--}}
+{{--                       class="button hidden h-full rounded border-none bg-colorGreen py-3 text-base text-black after:border-none after:bg-white lg:inline-block">Send a Mail--}}
+{{--                    </a>--}}
                     <!-- Responsive Offcanvas Menu Button -->
                     <div class="block lg:hidden">
                         <button class="mobile-menu-trigger is-white">

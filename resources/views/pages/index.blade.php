@@ -7,38 +7,33 @@
             <div class="relative z-[1] overflow-hidden text-center text-white">
                 <!-- Section Spacer -->
                 <div
-                    class="bg-[url('/assets/img/banner.jpg')] bg-cover bg-no-repeat pb-20 pt-28 md:pb-[265px] md:pt-40 lg:pt-44 xl:pt-[224px]">
+                    class="bg-[url('../assets/img/banner2.jpg')] bg-cover bg-no-repeat pb-20 pt-28 md:pb-[265px] md:pt-40 lg:pt-44 xl:pt-[224px]">
                     <!-- Section Container -->
                     <div class="global-container">
-                        <h1 class="jos mb-6 font-spaceGrotesk leading-none -tracking-[3px] text-white">
-                            DevMata
-                        </h1>
-                        <div class="mx-auto max-w-[1090px]">
-                            <p class="leading-[1.33] lg:text-xl xl:text-2xl">
-                                AI solutions for cyber security play a critical role in
-                                staying ahead of increasingly sophisticated cyber threats by
-                                providing faster, more accurate threat detection and
-                                response capabilities.
-                            </p>
-                        </div>
-                        <form action="#" method="post" class="jos mt-11 text-base font-bold">
-                            <div class="relative mx-auto h-[60px] max-w-[500px] overflow-hidden rounded">
-                                <input type="email" placeholder="Enter your email..."
-                                       class="h-full w-full bg-colorCodGray px-6 pr-[150px]" required />
-                                <button type="submit"
-                                        class="button absolute right-0 top-0 inline-block h-full rounded border-none bg-colorGreen py-0 text-black after:border-none after:bg-white">
-                                    Get Started
-                                </button>
+                        <div class="grid grid-cols-1 items-center gap-10 md:grid-cols-[minmax(0,_1fr)_0.7fr]">
+                            <!-- Hero Content -->
+                            <div>
+{{--                                <h1--}}
+{{--                                    class="jos mb-6 max-w-md break-words font-clashDisplay text-5xl font-medium leading-none text-white md:max-w-full md:text-6xl lg:text-7xl xl:text-8xl xxl:text-[100px]">--}}
+{{--                                    Transforming Your Ideas into Digital Success Stories--}}
+{{--                                </h1>--}}
+                                <h1 class="mb-6 font-spaceGrotesk leading-none -tracking-[3px] text-white jos" data-jos_once="1" data-jos_animation="fade-up" data-jos_counter="1" data-jos_scrolldirection="down">
+                                   DevMata
+                                </h1>
+                                <p class="jos mb-11">
+                                    Transforming Your Ideas into Digital Success Stories
+                                </p>
+                                <a href="https://www.example.com" target="_blank" rel="noopener noreferrer"
+                                   class="button inline-block h-full rounded border-none bg-colorGreen py-3 text-base text-black after:border-none after:bg-white">
+                                    Discover Our Work</a>
                             </div>
-                        </form>
-                        <div class="jos mt-4 flex items-center justify-center gap-x-[10px] text-center text-base">
-                            <img src="assets/img/th-4/icon-green-badge-check.svg" alt="icon-green-badge-check.svg"
-                                 width="20" height="20" class="inline-block" />
-                            <p>
-                                By signing up you agree to our
-                                <a href="http://www.example.com" target="_blank" rel="noopener noreferrer"
-                                   class="underline hover:text-colorGreen">Terms & Conditions.</a>
-                            </p>
+                            <!-- Hero Content -->
+                            <!-- Hero Image -->
+                            <div class="hero-img animate-pulse overflow-hidden rounded-2xl bg-black text-right">
+                                <img src="{{ asset('assets/img/banner.webp') }}" alt="hero-img-2" width="1296" height="640"
+                                     class="h-auto w-full" />
+                            </div>
+                            <!-- Hero Image -->
                         </div>
                     </div>
                     <!-- Section Container -->
@@ -137,15 +132,9 @@
 
                             <div>
                                 <p class="mb-8 text-lg leading-[1.42] last:mb-0 lg:text-[21px]">
-                                    Large corporations & businesses across industries use our
-                                    AI cybersecurity solutions to safeguard their networks,
-                                    servers, & data from cyber threats.
+                                    Welcome to DevMata, where technology meets innovation to transform your business ideas into reality. As a passionate software developer with expertise in Python, React Native, Laravel, WordPress, PHP, and Django, I specialize in crafting web and app solutions tailored to your business needs. Dive into a world where AI-driven efficiency propels your business forward.
                                 </p>
-                                <p class="mb-8 text-lg leading-[1.42] last:mb-0 lg:text-[21px]">
-                                    Our cyber security platform supercharges your security
-                                    with AI-powered security tools. Turn mountains of data
-                                    into actionable insights and respond in real-time.
-                                </p>
+
 
                                 <a href="https://www.example.com" target="_blank" rel="noopener noreferrer"
                                    class="button inline-block h-full rounded border-none bg-colorGreen py-3 text-base text-black after:border-none after:bg-white">Explore
