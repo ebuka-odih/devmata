@@ -57,16 +57,18 @@
                         <li class="jos rounded-[10px] bg-[#121212] p-[30px] text-white" data-jos_delay="0.1">
                             <div class="mb-6 flex items-center gap-x-6">
                                 <div class="h-[50px] w-[50px]">
-                                    <img src="assets/img/th-4/icon-green-promo-1.svg" alt="icon-black-promo"
+                                    <img src="assets/img/th-4/icon-green-promo-3.svg" alt="icon-black-promo"
                                          width="50" height="50" class="h-full w-auto" />
+{{--                                    <img src="assets/img/th-4/icon-green-promo-1.svg" alt="icon-black-promo"--}}
+{{--                                         width="50" height="50" class="h-full w-auto" />--}}
                                 </div>
                                 <div class="flex-1 font-spaceGrotesk text-3xl leading-[1.33]">
-                                    Threat Detection
+                                    Innovative Web Development
                                 </div>
                             </div>
                             <p class="text-[21px] leading-[1.4]">
-                                AI can identify patterns & improve the detection of unknown
-                                threats.
+                                DevMata harnesses the power of the latest web technologies to build dynamic,
+                                responsive websites that drive user engagement and business growth.
                             </p>
                         </li>
                         <li class="jos rounded-[10px] bg-[#121212] p-[30px] text-white" data-jos_delay="0.2">
@@ -76,12 +78,12 @@
                                          width="50" height="50" class="h-full w-auto" />
                                 </div>
                                 <div class="flex-1 font-spaceGrotesk text-3xl leading-[1.33]">
-                                    24/7 Monitoring
+                                    Custom App Creation
                                 </div>
                             </div>
                             <p class="text-[21px] leading-[1.4]">
-                                Ensuring continuous protection against threats and working
-                                hours.
+                                Transform your vision into reality with DevMata's custom mobile applications,
+                                designed for seamless performance across all devices and platforms.
                             </p>
                         </li>
                         <li class="jos rounded-[10px] bg-[#121212] p-[30px] text-white" data-jos_delay="0.3">
@@ -91,12 +93,12 @@
                                          width="50" height="50" class="h-full w-auto" />
                                 </div>
                                 <div class="flex-1 font-spaceGrotesk text-3xl leading-[1.33]">
-                                    Auto Response
+                                    AI-Driven Solutions
                                 </div>
                             </div>
                             <p class="text-[21px] leading-[1.4]">
-                                Automate routine security tasks and patch management
-                                security.
+                                Leverage DevMata's expertise in AI to automate business processes, gain data-driven insights,
+                                and create intelligent features that set your business apart.
                             </p>
                         </li>
                     </ul>
