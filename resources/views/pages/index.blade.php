@@ -127,20 +127,25 @@
                             <div class="mb-6">
                                 <h2
                                     class="font-spaceGrotesk text-4xl font-medium leading-[1.06] -tracking-[2px] text-white sm:text-[44px] lg:text-[56px] xl:text-[70px]">
-                                    Securing networks, servers and data
+                                    About DevMata
                                 </h2>
                             </div>
                             <!-- Section Content Block -->
 
                             <div>
                                 <p class="mb-8 text-lg leading-[1.42] last:mb-0 lg:text-[21px]">
-                                    Welcome to DevMata, where technology meets innovation to transform your business ideas into reality. As a passionate software developer with expertise in Python, React Native, Laravel, WordPress, PHP, and Django, I specialize in crafting web and app solutions tailored to your business needs. Dive into a world where AI-driven efficiency propels your business forward.
+                                    DevMata is in the business of creating custom software solutions that matter.
+                                    We're a team of developers who believe that technology should work for you,
+                                    making your business smarter, your processes smoother, and your reach wider.
+                                    Our services include developing bespoke websites that load fast and look great on any device,
+                                    building mobile applications that your customers will love, and integrating AI to help you make
+                                    better decisions and get routine tasks done more efficiently.
                                 </p>
 
 
                                 <a href="https://www.example.com" target="_blank" rel="noopener noreferrer"
                                    class="button inline-block h-full rounded border-none bg-colorGreen py-3 text-base text-black after:border-none after:bg-white">Explore
-                                    the Platform</a>
+                                   Read More</a>
                             </div>
                         </div>
                     </div>
@@ -150,6 +155,103 @@
             <!-- Section Spacer -->
         </section>
         <!--...::: Content Section-1 End :::... -->
+
+        <!--...::: Content Section-2 Start :::... -->
+        <section id="section-content-2">
+            <!-- Section Spacer -->
+            <div class="py-20 xl:py-[130px]">
+                <!-- Section Container -->
+                <div class="global-container">
+                    <!-- Section Content Block -->
+                    <div class="mb-10 text-center lg:mb-16 xl:mb-20 jos" data-jos_once="1" data-jos_animation="fade-up" data-jos_counter="1" data-jos_scrolldirection="down">
+                        <div class="mx-auto max-w-md lg:max-w-xl xl:max-w-[950px]">
+                            <h2 style="color: white">We provide smart AI solutions for all tasks</h2>
+                        </div>
+                    </div>
+                    <!-- Section Content Block -->
+                    <!-- Service List -->
+                    <ul class="grid grid-cols-1 gap-[2px] overflow-hidden rounded-[10px] border-2 border-black bg-black sm:grid-cols-2 lg:grid-cols-3 jos" data-jos_once="1" data-jos_animation="fade-up" data-jos_counter="1" data-jos_scrolldirection="down">
+
+                        <!-- Service Item -->
+                        <li class="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
+                            <div class="relative mb-9 h-[70px] w-[70px]">
+                                <img src="assets/img/th-1/service-icon-black-6.svg" alt="service-icon-black-6" width="70" height="70">
+                                <img src="assets/img/th-1/service-icon-orange-6.svg" alt="service-icon-orange-6" width="70" height="70" class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100">
+                            </div>
+                            <h3 class="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
+                                <a href="service-details.html" class="hover:text-colorOrangyRed">
+                                    Predictive Analytics
+                                </a>
+                            </h3>
+
+                            <p class="mb-12 duration-300 group-hover:text-white">
+                                Solutions that use AI to predict future trends and outcomes,
+                                such as demand forecastin.
+                            </p>
+
+                            <a href="service-details.html" class="relative inline-block h-[30px] w-[30px] duration-300">
+                                <img src="assets/img/th-1/arrow-right-black.svg" alt="arrow-right-black" width="30" height="30">
+                                <img src="assets/img/th-1/arrow-right-orange.svg" alt="arrow-right-black" width="30" height="30" class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100">
+                            </a>
+                            <!-- Features Item -->
+                            <!-- Features Item -->
+                        </li>
+                        <!-- Service Item -->
+                        <!-- Service Item -->
+                        <li class="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
+                            <div class="relative mb-9 h-[70px] w-[70px]">
+                                <img src="assets/img/th-1/service-icon-black-7.svg" alt="service-icon-black-7" width="70" height="70">
+                                <img src="assets/img/th-1/service-icon-orange-7.svg" alt="service-icon-orange-7" width="70" height="70" class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100">
+                            </div>
+                            <h3 class="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
+                                <a href="service-details.html" class="hover:text-colorOrangyRed">
+                                    Speech Recognition
+                                </a>
+                            </h3>
+
+                            <p class="mb-12 duration-300 group-hover:text-white">
+                                Speech recognition services convert spoken language into
+                                text and accessibility.
+                            </p>
+
+                            <a href="service-details.html" class="relative inline-block h-[30px] w-[30px] duration-300">
+                                <img src="assets/img/th-1/arrow-right-black.svg" alt="arrow-right-black" width="30" height="30">
+                                <img src="assets/img/th-1/arrow-right-orange.svg" alt="arrow-right-black" width="30" height="30" class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100">
+                            </a>
+                        </li>
+                        <!-- Service Item -->
+                        <!-- Service Item -->
+                        <li class="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
+                            <div class="relative mb-9 h-[70px] w-[70px]">
+                                <img src="assets/img/th-1/service-icon-black-8.svg" alt="service-icon-black-8" width="70" height="70">
+                                <img src="assets/img/th-1/service-icon-orange-8.svg" alt="service-icon-orange-8" width="70" height="70" class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100">
+                            </div>
+                            <h3 class="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
+                                <a href="service-details.html" class="hover:text-colorOrangyRed">
+                                    Computer Vision
+                                </a>
+                            </h3>
+
+                            <p class="mb-12 duration-300 group-hover:text-white">
+                                Computer vision services use AI to interpret and process
+                                visual information.
+                            </p>
+
+                            <a href="service-details.html" class="relative inline-block h-[30px] w-[30px] duration-300">
+                                <img src="assets/img/th-1/arrow-right-black.svg" alt="arrow-right-black" width="30" height="30">
+                                <img src="assets/img/th-1/arrow-right-orange.svg" alt="arrow-right-black" width="30" height="30" class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100">
+                            </a>
+                        </li>
+                        <!-- Service Item -->
+
+                    </ul>
+                    <!-- Service List -->
+                </div>
+                <!-- Section Container -->
+            </div>
+            <!-- Section Spacer -->
+        </section>
+        <!--...::: Content Section-2 End :::... -->
 
         <!--...::: Content Section-2 Start :::... -->
         <section id="section-content-2">
@@ -215,6 +317,7 @@
             <!-- Section Spacer -->
         </section>
         <!--...::: Content Section-2 End :::... -->
+
 
         <!-- Separator -->
         <div class="global-container overflow-hidden">
